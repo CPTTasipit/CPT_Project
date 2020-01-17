@@ -217,7 +217,8 @@ else if (ans===13){
         document.image.src="star.png"
     }
     else {
-        document.getElementById("question").value="Your score is %" + final_score_round + ", try again?"
+        document.getElementById("question").value="Your score is %" + final_score_round + ", click the image to try again"
+        document.image.src="nicetry.jpg"
         var fail = new Audio();
         fail.src = "defeat.mp3";
         fail.play()
